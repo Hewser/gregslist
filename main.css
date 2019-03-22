@@ -3,18 +3,19 @@ body {
 	margin: 0px;
 }
 
-nav {
+.topbar {
 	position: fixed;
 	height: 60px;
 	background-color: lightgray;
 	width: 100%;
 	margin: 0px;
+	border: 1px solid gray;
 }
 h1 {
 	margin-left: 10px;
 	display: inline-block;
 }
-ul {
+.topright {
 	position: absolute;
 	display: inline-block;
 	right:10px;
@@ -27,4 +28,52 @@ li {
 .nav:link {
 	color: purple;
 	text-decoration: none;
+}
+
+
+.input {
+	position: relative;
+	top: 100px;
+	margin-left: 100px
+}
+label {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+input {
+	float: left;
+	width: 50%;
+	height: 25px;
+	font-size: 20px;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+	border: solid lightgray 1px;
+	margin-left: 5px;
+}
+.prevnext {
+	position: relative;
+	top: 125px;
+	margin-left: 60px;
+}
+.result {
+	font-size: 0px;
+
+}
+.result li {
+	font-size: 20px; 
+	border: solid lightgray 1px;
+	margin: 0px;
+	padding: 10px;
+}
+.result li:nth-child(1) {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.result li:nth-child(3) {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
